@@ -54,7 +54,20 @@ table {
 */
 
 body {
-  background: #455A64;
+  background: #4D505B;
   color: #FFF;
   font: 1em/1.5em "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-seriff;
+}
+
+/*
+  =======================================
+  Hero
+  =======================================
+*/
+
+.hero {
+  background: #113826 url('cloudy-mountain.jpg') center no-repeat fixed;
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
 }
