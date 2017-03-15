@@ -54,7 +54,7 @@ table {
 */
 
 body {
-  background: #4D505B;
+  background: #798;
   color: #FFF;
   font: 1em/1.5em "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-seriff;
 }
@@ -71,6 +71,31 @@ body {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+/*
+  =======================================
+  Navbar
+  =======================================
+*/
+.navbar {
+  border-top: .2em solid white;
+  border-bottom: .2em solid white;
+  height: 3em;
+  left: 0;
+  opacity: .4;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+.navbar li {
+  display: inline-block;
+  line-height: 0;
+  margin: 0 2em;
+  text-transform: uppercase;
+  vertical-align: middle;
 }
 
 /*
