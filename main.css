@@ -54,7 +54,6 @@ table {
 */
 
 body {
-  background: #798;
   color: #FFF;
   font: 1em/1.5em "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-seriff;
 }
@@ -73,8 +72,12 @@ body {
           box-sizing: border-box;
 }
 
-.hero, .about, .portfolio {
+section {
   height: 100vh;
+}
+
+.footer {
+  height: 6em;
 }
 
 /*
@@ -111,6 +114,36 @@ body {
   background: #113826 url('cloudy-mountain.jpg') center no-repeat fixed;
   background-size: cover;
   text-align: center;
+}
+
+/*
+  ======================================
+  About
+  ======================================
+*/
+
+.about {
+  background-color: #3B3C37;
+} 
+
+/*
+  ======================================
+  Portfolio
+  ======================================
+*/
+
+.portfolio {  
+  background-color: #B5B5AD;
+}
+
+/*
+  ======================================
+  Footer
+  ======================================
+*/
+
+.footer {
+  background-color: #3B3C37;
 }
 
 /*
