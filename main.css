@@ -73,6 +73,10 @@ body {
           box-sizing: border-box;
 }
 
+.hero, .about, .portfolio {
+  height: 100vh;
+}
+
 /*
   =======================================
   Navbar
@@ -106,7 +110,6 @@ body {
 .hero {
   background: #113826 url('cloudy-mountain.jpg') center no-repeat fixed;
   background-size: cover;
-  height: 100vh;
   text-align: center;
 }
 
