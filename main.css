@@ -90,7 +90,7 @@ section {
   border-bottom: .15em solid rgba(255, 255, 255, .5);
   height: 3em;
   left: 0;
-  position: fixed;
+  position: absolute;
   top: 0;
   width: 100%;
   z-index: 9999;
