@@ -55,10 +55,9 @@ table {
 
 body {
   color: #FFF;
-  font: 1em/1.5em 'Josefin Slab', serif, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-seriff;
+  font: 1em/1.5em "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-seriff;
 }
 h1 {
-  font-family: 'Sacramento', cursive;
   font-size: 5em;
 }
 h3 {
@@ -125,7 +124,6 @@ section {
 }
 .hero h3 {
   margin-top: 1em;
-  color: rgba(255, 255, 255, .5);
 }
 
 /*
