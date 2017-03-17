@@ -55,7 +55,14 @@ table {
 
 body {
   color: #FFF;
-  font: 1em/1.5em "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-seriff;
+  font: 1em/1.5em 'Josefin Slab', serif, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-seriff;
+}
+h1 {
+  font-family: 'Sacramento', cursive;
+  font-size: 5em;
+}
+h3 {
+  font-size: 2em;
 }
 
 /*
@@ -86,9 +93,10 @@ section {
   =======================================
 */
 .navbar {
-  border-top: .15em solid rgba(255, 255, 255, .5);
-  border-bottom: .15em solid rgba(255, 255, 255, .5);
-  height: 3em;
+  border-top: .12em solid rgba(255, 255, 255, .5);
+  border-bottom: .12em solid rgba(255, 255, 255, .5);
+  height: 2.5em;
+  font-size: 1.2em;
   left: 0;
   position: absolute;
   top: 0;
@@ -114,6 +122,10 @@ section {
   background: #B5B5AD url('cloudy-mountain.jpg') center no-repeat fixed;
   background-size: cover;
   text-align: center;
+}
+.hero h3 {
+  margin-top: 1em;
+  color: rgba(255, 255, 255, .5);
 }
 
 /*
