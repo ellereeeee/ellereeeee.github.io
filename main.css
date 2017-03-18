@@ -183,3 +183,22 @@ a:hover {
   flex-direction: column;
   justify-content: center;
 }
+
+/*
+  =======================================
+  Media Queries
+  =======================================
+*/
+
+@media screen and (min-width: 400px) {
+
+}
+@media screen and (min-width: 600px) {
+
+}
+@media screen and (min-width: 1000px) {
+
+}
+@media screen and (min-width: 1400px) {
+
+}
