@@ -117,7 +117,7 @@ section {
 */
 
 .hero {
-  background: #B5B5AD url('dark-cloudy-mountain.jpg') center no-repeat fixed;
+  background: #676661 url('dark-cloudy-mountain.jpg') center no-repeat fixed;
   background-size: cover;
   text-align: center;
 }
@@ -143,7 +143,7 @@ section {
 */
 
 .portfolio {  
-  background-color: #B5B5AD;
+  background-color: #676661;
 }
 
 /*
