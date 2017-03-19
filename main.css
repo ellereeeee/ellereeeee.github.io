@@ -192,13 +192,13 @@ a:hover {
   =======================================
 */
 /* make navbar responsive */
-@media all and (min-width: 400px) {
+@media screen and (min-width: 400px) {
   body {
     font-size: .6em;
     line-height: .85em;
   }
 }
-@media all and (min-width: 600px) {
+@media screen and (min-width: 600px) {
   body {
     font-size: .8em;
     line-height: 1.05em;
@@ -207,9 +207,9 @@ a:hover {
     margin: 0 2.3em;
   }
 }
-@media all and (min-width: 1000px) {
+@media screen and (min-width: 1000px) {
 }
-@media all and (min-width: 1400px) {
+@media screen and (min-width: 1400px) {
   .navbar li{
     margin: 0 3em;
   }
