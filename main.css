@@ -68,7 +68,11 @@ h2 {
 h3 {
   font-size: 2.5em;
 }
-
+/* make images responsive */
+img {
+  max-width: 100%;
+  height: auto;
+}
 /*
   ========================================
   Grid
@@ -214,6 +218,15 @@ a:hover {
   }
 }
 @media screen and (min-width: 1000px) {
+  h1 {
+    font-size: 5.5em;
+  }
+  h2 {
+    font-size: 4.5em;
+  }
+  h3 {
+    font-size: 3.5em;
+  }
 }
 @media screen and (min-width: 1400px) {
   .navbar li{
