@@ -143,8 +143,16 @@ section {
 
 .about {
   background-color: #3B3C37;
-} 
-
+}
+.about h2 {
+  line-height: 2em;
+}
+.about img {
+  border: .5em solid #EB6D57;
+  border-radius: 50%;
+  max-width: 40%;
+  height: auto;
+}
 /*
   ======================================
   Portfolio
