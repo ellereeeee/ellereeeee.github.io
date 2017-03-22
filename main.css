@@ -145,13 +145,23 @@ section {
   background-color: #3B3C37;
 }
 .about h2 {
-  line-height: 2em;
+  line-height: 1em;
+  border-bottom: .1em solid #EB6D57;
+  margin-bottom: .5em;
 }
 .about img {
   border: .5em solid #EB6D57;
   border-radius: 50%;
   max-width: 40%;
   height: auto;
+}
+.about p {
+  font-size: 1.75em;
+  line-height: 1.5em;
+  margin-top: 1.5em;
+  text-align: center;
+  width: 70%;
+
 }
 /*
   ======================================
@@ -224,6 +234,14 @@ a:hover {
   .navbar li {
     margin: 0 2.3em;
   }
+  /* about section */
+  .about img {
+    width: 30%;
+  }
+  .about p {
+    margin-top: .75em;
+    width: 60%;
+  }
 }
 @media screen and (min-width: 1000px) {
   h1 {
@@ -234,6 +252,13 @@ a:hover {
   }
   h3 {
     font-size: 3.5em;
+  }
+  /* about section */
+  .about img {
+    width: 25%;
+  }
+  .about p {
+    font-size: 2.75em;
   }
 }
 @media screen and (min-width: 1400px) {
