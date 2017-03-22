@@ -161,7 +161,6 @@ section {
   margin-top: 1.5em;
   text-align: center;
   width: 70%;
-
 }
 /*
   ======================================
@@ -258,7 +257,10 @@ a:hover {
     width: 25%;
   }
   .about p {
-    font-size: 2.75em;
+    font-size: 2em;
+    line-height: 1.75em;
+    margin-top: 1em;
+    width: 60%;
   }
 }
 @media screen and (min-width: 1400px) {
