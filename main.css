@@ -122,13 +122,13 @@ img {
 */
 
 .hero {
-  background: #1B2023 url('focused-water.jpg') center no-repeat fixed;
+  background: #000 url('flashlight.jpg') center no-repeat fixed;
   background-size: cover;
   height: 100vh;
   text-align: center;
 }
 .hero h3 {
-  color: #94989d;
+  color: #00D2BC;
   margin-top: 1em;
 }
 
@@ -139,16 +139,16 @@ img {
 */
 
 .about {
-  background-color: #28313a;
+  background-color: #362f41;
 }
 .about h2 {
   line-height: 1em;
-  border-bottom: .1em solid #94989d;
+  border-bottom: .1em solid #00D2BC;
   margin-top: 1.75em;
   margin-bottom: .5em;
 }
 .about img {
-  border: .5em solid #94989d;
+  border: .5em solid #00D2BC;
   border-radius: 50%;
   max-width: 40%;
   height: auto;
@@ -168,7 +168,7 @@ img {
 */
 
 .portfolio {  
-  background-color: #1B2023;
+  background-color: #000;
 }
 
 /*
@@ -178,7 +178,7 @@ img {
 */
 
 .footer {
-  background-color: #28313a;
+  background-color: #362f41;
 }
 
 /*
