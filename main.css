@@ -128,7 +128,7 @@ img {
   text-align: center;
 }
 .hero h3 {
-  color: #00D2BC;
+  color: #b0bbf1;
   margin-top: 1em;
 }
 
@@ -143,12 +143,12 @@ img {
 }
 .about h2 {
   line-height: 1em;
-  border-bottom: .1em solid #00D2BC;
+  border-bottom: .1em solid #b0bbf1;
   margin-top: 1.75em;
   margin-bottom: .5em;
 }
 .about img {
-  border: .5em solid #00D2BC;
+  border: .5em solid #b0bbf1;
   border-radius: 50%;
   max-width: 40%;
   height: auto;
