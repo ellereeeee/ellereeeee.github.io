@@ -63,13 +63,18 @@ h1 {
   line-height: 1em;
 }
 h2 {
+  border-bottom: .1em solid #b0bbf1;
   font-size: 3.5em;
+  line-height: 1em;
+  margin-top: 1.75em;
+  margin-bottom: .5em;
 }
 h3 {
   font-size: 2.5em;
 }
 /* make images responsive */
 img {
+  border: .5em solid #b0bbf1;
   max-width: 100%;
   height: auto;
 }
@@ -141,14 +146,8 @@ img {
 .about {
   background-color: #362f41;
 }
-.about h2 {
-  line-height: 1em;
-  border-bottom: .1em solid #b0bbf1;
-  margin-top: 1.75em;
-  margin-bottom: .5em;
-}
+
 .about img {
-  border: .5em solid #b0bbf1;
   border-radius: 50%;
   max-width: 40%;
   height: auto;
@@ -169,6 +168,13 @@ img {
 
 .portfolio {  
   background-color: #000;
+  padding-bottom: 3em;
+}
+
+.portfolio img {
+  border-radius: .5em;
+  margin: 1.5em 0;
+  width: 90%;
 }
 
 /*
