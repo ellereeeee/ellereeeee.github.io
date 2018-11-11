@@ -173,7 +173,7 @@ img {
 
 .overlay {
   align-items: center;
-  background-color: #362f41;
+  background-color: rgba(0,0,0,.7);
   border: 3px solid #b0bbf1;
   border-radius: 3px;
   bottom: 0;
