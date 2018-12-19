@@ -72,6 +72,9 @@ h2 {
 h3 {
   font-size: 2.5em;
 }
+html {
+  scroll-behavior: smooth;
+}
 /* make images responsive */
 img {
   border: .5em solid #b0bbf1;
