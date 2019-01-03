@@ -53,6 +53,9 @@ table {
   =======================================
 */
 
+html, body {
+  overflow-x: hidden;
+}
 body {
   color: #FFF;
   font: .5em/.75em'Roboto Slab', serif;
